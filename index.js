@@ -8,16 +8,16 @@ const fbvid = require('fbvideos');
 
 const video = 'https://fb.watch/v/1UDuJzYAH/';
 
-fbvid.low(video).then(vid => {
-    console.log(vid)
-    // => { url: 'https://video.fpat1-1.fna.fbcdn.net/...mp4?934&oe=5972F363' }
+// fbvid.low(video).then(vid => {
+//     console.log(vid)
+//     // => { url: 'https://video.fpat1-1.fna.fbcdn.net/...mp4?934&oe=5972F363' }
 
-});
+// });
 
-fbvid.high(video).then(vid => {
-    console.log(vid);
-    // => { url: 'https://video.fpat1-1.fna.fbcdn.net/...mp4?934&OE=2kf2lf4g' }
-});
+// fbvid.high(video).then(vid => {
+//     console.log(vid);
+//     // => { url: 'https://video.fpat1-1.fna.fbcdn.net/...mp4?934&OE=2kf2lf4g' }
+// });
 
 
 // conDB()
